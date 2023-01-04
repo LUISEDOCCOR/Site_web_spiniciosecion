@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
+
+html{
+    font-family: 'Work Sans', sans-serif;
+}
+h1{font-size: 35px;}
+h2{font-size: 25px;}
+h3{font-size: 20px;}
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+header{
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+#name{
+    text-align: center;
+}
+#fotoperfil{
+    display: flex;
+    justify-content: center;
+}
+#fotoperfil img{
+    margin-bottom: 30px;
+    border-radius: 100%;
+    border: 4px solid #3F435E;
+}
+#academia{
+    color: #F23D4C;
+}
+#name h1{margin-bottom: 10px;}
+#user, #pilotosseleccion, #contraseña{
+    margin-bottom: 30px;
+}
+input, select{
+    width: 200px;
+    height: 35px;
+    padding: 7px;
+    font-size: 18px;
+    border-radius: 50px;
+    border: 1px solid #3F435E;
+}
+main h3{
+    padding-bottom: 10px;
+}
+#nouser{
+   text-align: center;
+   margin-top: 40px;
+}
+#nouser h3{
+    padding-bottom:20px ;
+    
+}
+a{
+    text-decoration: none;
+    color: #F23545;
+}
+a:hover{color: #3F435E;}
+footer{
+    margin-top: 40px;
+    display: inline-block;
+}
+footer p{
+    float: left;
+    margin-right: 20px;
+}
+#of{
+    color: #F23545;
+}
+#fin{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
